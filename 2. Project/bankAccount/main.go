@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	account := banking.Account{Owner: "jhyoonzi", Balance: 1000}
